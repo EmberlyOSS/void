@@ -1,32 +1,34 @@
 services:
   # emberly.site
   - name: "Emberly"
-    host: "http://127.0.0.1:3000"  # Backend server URL
+    host: "http://emb-app-eu-1:3000"  # Backend server URL
     domain: "emberly.site"          # Domain to match (supports root domains)
     support: "https://discord.gg/NYCaZcSwrj"  # Support/contact URL
     status: "https://status.emberly.site"   # Status page URL
 
   # embrly.ca
   - name: "Emberly"
-    host: "http://127.0.0.1:3000"  # Backend server URL
+    host: "http://emb-app-eu-1:3000"  # Backend server URL
     domain: "embrly.ca"          # Domain to match (supports root domains)
     support: "https://discord.gg/NYCaZcSwrj"  # Support/contact URL
     status: "https://status.emberly.site"   # Status page URL
 
   # API server
   - name: "Emberly API"
-    host: "http://127.0.0.1:3003"
+    host: "http://emb-app-eu-1:3003"
     domain: "api.emberly.site"
     support: "https://discord.gg/NYCaZcSwrj"
     status: "https://status.emberly.site"
 
   # API server
   - name: "Emberly API"
-    host: "http://127.0.0.1:3003"
+    host: "http://emb-app-eu-1:3003"
     domain: "api.embrly.ca"
     support: "https://discord.gg/NYCaZcSwrj"
     status: "https://status.emberly.site"
 
 apiUrls:
+  - "embrly.ca/api"
+  - "emberly.site/api"
   - "api.emberly.site"
   - "api.embrly.ca"
